@@ -1,9 +1,16 @@
 import React from 'react'
 import './index.css'
+import Links from './links/Links'
+import Profile from './profile/Profile'
+import Footer from './footer/Footer'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+        <Profile/>
+        <Links/>
+        <Footer/>
+    </div>
   )
 }
 
