@@ -6,7 +6,7 @@ import Footer from './footer/Footer'
 
 const App = () => {
   return (
-    <div>
+    <div className='card'>
         <Profile/>
         <Links/>
         <Footer/>
