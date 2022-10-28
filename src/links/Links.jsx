@@ -5,12 +5,12 @@ import './links.css'
 const Links = () => {
   return (
      <section className='links'>
-        <button className='link_btn'><a href="" id='' target='_blank' className='twitter'>Twitter Link</a></button>
-        <button className='link_btn'><a href="" id='' target='_blank'>Zuri Team</a></button>
-        <button className='link_btn'><a href="" id='' target='_blank'>Zuri Books</a></button>
-        <button className='link_btn'><a href="" id='' target='_blank'>Python Books</a></button>
-        <button className='link_btn'><a href="" id='' target='_blank'>Background check for coders</a></button>
-        <button className='link_btn'><a href="" id='' target='_blank'>Design Books</a></button>
+        <a href="https://training.zuri.team/" id='btn__zuri' target='_blank' className='link'>Zuri Team</a>
+        <a href="qhttp://books.zuri.team" id='books' target='_blank' className='link'>Books</a>
+        <a href="https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>" id='book__python' target='_blank' className='link'>Buy Now</a>
+        <a href="https://background.zuri.team" id='pitch' target='_blank' className='link'>Pitch</a>
+        <a href="" id='' target='_blank' className='link'>Background check for coders</a>
+        <a href="https://books.zuri.team/design-rules" id='book__design' target='_blank' className='link'>Design Books</a>
         <div className="social_icon">
           <a href="#"><img src={IMG2} alt="Github Logo" className='slack'/></a>
           <a href="#"><img src={IMG1} alt="Github Logo" /></a>

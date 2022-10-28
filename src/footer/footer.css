@@ -1,0 +1,19 @@
+footer{
+    margin: 7rem 4rem 0 4rem;
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ddd;
+}
+
+footer .hng_logo img{
+    width: 8.5rem;
+    height: 1.5rem;
+}
+
+footer .text small{
+    font-weight: 700;
+    color: rgb(170, 165, 165);
+}
+

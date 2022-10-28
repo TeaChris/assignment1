@@ -6,17 +6,14 @@
     place-items: center;
 }
 
-button.link_btn{
+a.link{
     background: #ddd;
     width: 70%;
     padding: 0.8rem;
     border-radius: 0.5rem;
     font-size: 1rem;
     font-weight: 600;
-    cursor: pointer;
-}
-
-button.link_btn a{
+    text-align: center;
     color: var(--color-black);
 }
 
@@ -31,4 +28,4 @@ button.link_btn a{
     display: flex;
     flex-direction: row;
     gap: 1.2rem;
-}
+} 
