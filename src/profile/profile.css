@@ -5,16 +5,23 @@ header{
     align-items: center;
 }
 
-.header_icon{
-    padding: 1.5rem 30rem 0 0;
-    font-size: 1rem;
-    font-weight: 700;
-    color: gray;
-    display: flex;
-    align-self: flex-end;
+.profile img{
+  margin: 2rem 0 1rem 0;
+}
+
+.profile img.share_mobile{
+  display: none;
+}
+
+.profile img.profile_photo{
+  margin-left: 17.5rem;
+}
+
+.profile img.share{
+  margin: 0 0 4rem 15rem;
 }
 
 .profile h2{
     font-size: 3rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }

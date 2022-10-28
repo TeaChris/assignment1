@@ -2,19 +2,20 @@
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.2rem;
     place-items: center;
 }
 
-button{
+button.link_btn{
     background: #ddd;
     width: 70%;
     padding: 0.8rem;
     border-radius: 0.5rem;
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
-button a{
+button.link_btn a{
     color: var(--color-black);
 }
