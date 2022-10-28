@@ -19,3 +19,16 @@ button.link_btn{
 button.link_btn a{
     color: var(--color-black);
 }
+
+.links .social_icon a img.slack{
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: cover;
+}
+
+.links .social_icon{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+}

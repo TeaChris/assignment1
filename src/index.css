@@ -23,7 +23,7 @@ body{
 
 .card{
     width: 94vw;
-    height: 95vh;
+    height: 98vh;
     background: var(--color-gray);
     margin: 1rem auto;
     box-shadow: 0.8rem 0.8rem 0.8rem 0.8rem rgba(0, 0, 0, 0.2);
