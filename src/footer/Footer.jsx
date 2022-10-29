@@ -5,7 +5,6 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer>
-
       <div className="hng_logo">
         <img src={IMG2} alt="Zuri Logo" />
       </div>

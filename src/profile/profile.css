@@ -6,7 +6,7 @@ header{
 }
 
 .profile img{
-  margin: 2rem 0 1rem 0;
+  margin: 3rem 0 1rem 0;
 }
 
 .profile img.share_mobile{
@@ -24,4 +24,33 @@ header{
 .profile h2{
     font-size: 3rem;
     margin-top: 1rem;
+}
+
+@media screen and (max-width: 699px){
+  .profile img.profile_photo{
+    margin: 0;
+    padding-left: 9rem;
+  }
+
+  .profile img.share{
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .profile img.profile_photo{
+    margin: 0;
+    padding-left: 8rem;
+  }
+
+  .profile img.share{
+    display: none;
+  }
+
+  .profile img.share_mobile{
+    display: block;
+    margin: 0;
+    padding-left: 18rem;
+  }
 }
