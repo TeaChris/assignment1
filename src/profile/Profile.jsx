@@ -11,7 +11,8 @@ const Profile = () => {
         <img src={IMG1} alt="Profile Photo" className='profile_photo' id='profile__img'/>
         <a href="#"><img src={IMG2} alt="Share button" className='share'/></a>
       </div>
-      <h2>Thee_tech Bermuda</h2>
+      <h2>Thee_tech</h2>
+      <h3 id='slack'>bermuda</h3>
     </header>
   )
 }
